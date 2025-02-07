@@ -1,14 +1,41 @@
-This is a Kotlin Multiplatform project targeting Android, iOS, Desktop.
+# 📱 Kotlin Multiplatform ViewModel Setup
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+Welcome to the setup guide for ViewModel in Kotlin Multiplatform projects. Follow these steps to correctly implement ViewModel in your multiplatform applications.
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+## 📑 Table of Contents
+- [🌟 Intro](#-intro)
+- [🔧 Dependencies](#-dependencies)
+- [🧠 ViewModel](#-viewmodel)
+- [💉 Dependency Injection](#-dependency-injection)
+- [🔒 Scoped](#-scoped)
+- [🚀 Final Step](#-final-step)
+- [🖥️ Desktop](#-desktop)
+- [📱 iOS](#-ios)
+- [🤖 Android](#-android)
 
+## 🌟 Intro
+Introduction to the setup of ViewModel for Kotlin Multiplatform projects.
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+## 🔧 Dependencies
+List of necessary dependencies to implement ViewModel in your KMP project.
+
+## 🧠 ViewModel
+Guide to creating and configuring ViewModel in Kotlin Multiplatform.
+
+## 💉 Dependency Injection
+How to implement dependency injection in your KMP project.
+
+## 🔒 Scoped
+Managing the scope of ViewModel for efficient resource management.
+
+## 🚀 Final Step
+Final step to ensure everything is correctly set up and functioning.
+
+## 🖥️ Desktop
+Specific guide to implementing ViewModel on the desktop platform.
+
+## 📱 iOS
+Instructions for setting up ViewModel in iOS projects.
+
+## 🤖 Android
+Steps to implement ViewModel in Android applications.
